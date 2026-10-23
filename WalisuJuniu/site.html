@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AURA - produtos</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: #111;
+            padding: 25px;
+            border-bottom: 2px solid gold;
+        }
+
+        h1, h2 {
+            color: gold;
+        }
+
+        .inicio {
+            padding: 40px 20px;
+        }
+
+        .produtos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .produto {
+            background-color: #151515;
+            border: 1px solid gold;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        .preco {
+            color: gold;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: gold;
+            color: black;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: white;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid gold;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha página de produtos aurosos</h1>
+        <p>Alguns produtos aura + rego</p>
+    </header>
+
+    <section class="inicio">
+        <h2>Bem-vindo à nossa loja!</h2>
+
+        <p>
+            Possuímos vários cursos e produtos digitais para você, eles possuem uma variedade <br> de temas/gêneros para você estudar e colocar em seu portifólio
+        </p>
+        <a href="inicio.html">INICIO</a> <br><br>
+        <a href="contato.html">CONTATO</a>
+
+
+        
+    </section>
+
+    <h2>Nossos Produtos</h2>
+
+    <section class="produtos">
+
+        <div class="produto">
+            <h3>Como farmar muita aura?</h3>
+            <p>Aprenda estratégias infalíveis que farão você farmar aura.</p>
+            <p class="preco">R$ 29,90</p>
+            <button onclick="alert('Muito obrigado pela sua compra. Aproveite')">
+                Comprar
+            </button>
+        </div>
+
+        <div class="produto">
+            <h3>Como aprener a voar?</h3>
+            <p>Aprenda a habilidade de voar em poucos dias e impressione a todos.</p>
+            <p class="preco">R$ 79,90</p>
+            <button onclick="alert('Muito obrigado pela sua compra. Aproveite')">
+                Comprar
+            </button>
+        </div>
+
+        <div class="produto">
+            <h3>Aprenda a moggar os outros</h3>
+            <p>Aprenda a moggar todos fazendo o olhar do anjo caído.</p>
+            <p class="preco">R$ 19,90</p>
+            <button onclick="alert('Muito obrigado pela sua compra. Aproveite')">
+                Comprar
+            </button>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 MEGA aura - compre aí, que farmamos aqui.</p>
+    </footer>
+
+</body>
+</html>
